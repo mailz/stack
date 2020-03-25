@@ -1,15 +1,16 @@
-name: sync branch
+name: sync_branch
 
 on:
   push:
     branches: [ release_1 ]
   pull_request:
     branches: [ release_1 ]
+  
 
 jobs:
 
   sync-branches:
-    
+
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
