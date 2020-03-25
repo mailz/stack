@@ -28,6 +28,8 @@ public static void main(String args[]) throws StackException {
     System.out.println(stack.pop());
     System.out.println(stack.pop());
     System.out.println();
+    System.out.println();
+    System.out.println();
 
 
     System.out.println(stack.isFull());
