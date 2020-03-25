@@ -3,7 +3,7 @@ package org.mailz;
 /**
  * Created by ubick on 30.09.2014.
  */
-public class main {
+public class Main {
 
 public static void main(String args[]) throws StackException {
 
