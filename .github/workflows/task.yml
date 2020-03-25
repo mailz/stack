@@ -1,23 +1,16 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ release_1 ]
   pull_request:
-    branches: [ master ]
-
+    branches: [ release_1 ]
 
 jobs:
 
   sync-branches:
-
+    
     runs-on: ubuntu-latest
-
-
     steps:
       - name: Checkout
       - uses: actions/checkout@v2
