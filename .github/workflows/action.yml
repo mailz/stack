@@ -1,8 +1,7 @@
 name: Sync
 on:
   push:
-    branches:
-      - release_1
+    branches: [ release_1 ]
 
 jobs:
   sync-branches:
