@@ -17,7 +17,7 @@ jobs:
 
     - name: start creating pr
       id: pull
-      uses: mailz/SyncAction
+      uses: mailz/SyncAction@v1
       with:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         BRANCH: "release/release_1"
