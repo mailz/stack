@@ -28,14 +28,6 @@ public static void main(String args[]) throws StackException {
     System.out.println(stack.pop());
     System.out.println(stack.pop());
 
-    stack.push("dsadas");
-    stack.push("dsadas");
-    stack.push("dsadas");
-    stack.push("dsadas");
-
-
-
-
 
 }
 
