@@ -23,7 +23,11 @@ public static void main(String args[]) throws StackException {
     System.out.println(stack.isFull());
     System.out.println(stack.isEmpty());
 
-
+    System.out.println();
+    System.out.println();
+    System.out.println();
+    System.out.println();
+    System.out.println();
 
 
 }
