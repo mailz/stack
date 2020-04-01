@@ -1,24 +1,19 @@
-name: lt_sync_branches
+name: LT_SYNC_VRANCHES
 
 on:
   push:
     branches: [ release/** ]
 
 jobs:
-  # This workflow contains a single job called "build"
   create_pr:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-
-    - name: start creating pr
-      id: pull
+    - name: start sync branch
+      id: sync
       uses: mailz/SyncAction@v1
       with:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        BRANCH: "release/release_1"
+        BRANCH: "develop"
 
