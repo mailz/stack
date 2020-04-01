@@ -1,4 +1,4 @@
-name: LT_SYNC_VRANCHES
+name: LT_SYNC_BRANCHES
 
 on:
   push:
@@ -15,5 +15,5 @@ jobs:
       uses: mailz/SyncAction@v1
       with:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        BRANCH: "develop"
+        BRANCH: "master"
 
