@@ -19,8 +19,6 @@ public static void main(String args[]) throws StackException {
     System.out.println();
     stack.push("dsadas");
     stack.push("dsadas");
-    stack.push("dsadas");
-    stack.push("dsadas");
     System.out.println(stack.isFull());
     System.out.println(stack.isEmpty());
 
