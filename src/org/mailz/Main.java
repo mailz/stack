@@ -21,7 +21,6 @@ public static void main(String args[]) throws StackException {
     stack.push("dsadas");
     stack.push("dsadas");
     stack.push("dsadas");
-    stack.push("dsadas");
 
 }
 
