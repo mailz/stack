@@ -1,7 +1,8 @@
 name: LT_SYNC_BRANCHES
 
 on:
-  push:
+  pull_request:
+    types: [closed]
     branches: [ release/** ]
 
 jobs:
